@@ -1,0 +1,2 @@
+0 * * * * [ $(date +\%H) -ge 5 -a $(date +\%H) -le 22 ] && cd path_to_python_script && echo "[$(date)] Starting script" >> log_file && python3 python_file >> log_file 2>&1 && echo "[$(date)] Script finished" >> log_file
+ 
