@@ -79,7 +79,7 @@ def run_script():
         if response.status_code == 200:
             df_data = pd.read_csv(StringIO(response.text))
         else:
-            print("Ошибка при выполнении запроса:", response.status_code)
+            print("error:", response.status_code)
 
 
         def extract_six_digit_number(url):
@@ -106,7 +106,7 @@ def run_script():
         headers = {
             "Authorization": "Bearer " + token,
             "Client-Login": clientLogin,
-            "Accept-Language": "ru",
+            "Accept-Language": "en",
             "processingMode": "auto"
         }
 
@@ -164,7 +164,7 @@ def run_script():
         headers = {
             "Authorization": "Bearer " + token,
             "Client-Login": clientLogin,
-            "Accept-Language": "ru",
+            "Accept-Language": "en",
             "processingMode": "auto"
         }
 
@@ -212,7 +212,7 @@ def run_script():
         headers = {
             "Authorization": "Bearer " + token,
             "Client-Login": clientLogin,
-            "Accept-Language": "ru",
+            "Accept-Language": "en",
             "processingMode": "auto"
         }
 
