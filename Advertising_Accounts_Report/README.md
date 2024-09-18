@@ -19,6 +19,7 @@ This Python script automates the process of generating and sending performance r
 Here is an example of what the report looks like:
 
 [Screenshot_1 of example reports](https://github.com/artemposty/analytical_projects/blob/main/images/Screenshot%202024-09-18%20at%2014.10.03.png)
+
 [Screenshot_2 of example reports](https://github.com/artemposty/analytical_projects/blob/main/images/Screenshot%202024-09-18%20at%2014.10.09.png)
 
 
